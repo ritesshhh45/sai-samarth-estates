@@ -1,29 +1,49 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/site/Navbar";
+import { Hero } from "@/components/site/Hero";
+import { About } from "@/components/site/About";
+import { LayoutPlans } from "@/components/site/LayoutPlans";
+import { Highlights } from "@/components/site/Highlights";
+import { Plots } from "@/components/site/Plots";
+import { Location } from "@/components/site/Location";
+import { Gallery } from "@/components/site/Gallery";
+import { Testimonials } from "@/components/site/Testimonials";
+import { Faq } from "@/components/site/Faq";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
+import { FloatingActions } from "@/components/site/FloatingActions";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Shri Sai Samarth Developers | Premium NA Plots in Aurangabad" },
+      { name: "description", content: "Buy premium AMRDA-approved residential & commercial NA plots from Shri Sai Samarth Developers. Clear title, wide roads, modern amenities — ready for registration." },
+      { property: "og:title", content: "Shri Sai Samarth Developers | Premium NA Plots" },
+      { property: "og:description", content: "AMRDA-approved residential & commercial NA plots in Shendra, Aurangabad. Clear title, ready registration, investment friendly." },
     ],
+    links: [{ rel: "canonical", href: "/" }],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <LayoutPlans />
+        <Highlights />
+        <Plots />
+        <Location />
+        <Gallery />
+        <Testimonials />
+        <Faq />
+        <Contact />
+      </main>
+      <Footer />
+      <FloatingActions />
     </div>
   );
 }
