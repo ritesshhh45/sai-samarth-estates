@@ -1,4 +1,4 @@
-import { Download, ZoomIn } from "lucide-react";
+import { Download, ZoomIn, Loader2 } from "lucide-react";
 import { useState } from "react";
 import {
   Dialog,
@@ -6,21 +6,19 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import phase1 from "@/assets/layout-phase1.asset.json";
-import phase2 from "@/assets/layout-phase2.asset.json";
 
 const plans = [
   {
     title: "Phase 1 Layout Plan",
     subtitle: "Radhakrishna Nagar Phase II — Shendra, Aurangabad",
-    img: phase1.url,
+    img: "/layouts/phase1.jpg",
     file: "shri-sai-samarth-phase-1-layout.jpg",
     chips: ["A · B · C · D · E Parts", "9.00 m Wide Roads", "Open Spaces", "Radhakrishna Mandir"],
   },
   {
     title: "Phase 2 Layout Plan",
     subtitle: "60 Ft Internal Road Sector — Plots 01 to 29",
-    img: phase2.url,
+    img: "/layouts/phase2.jpg",
     file: "shri-sai-samarth-phase-2-layout.jpg",
     chips: ["NA-44 Approved", "60 Ft Wide Roads", "9 m Internal Road", "Open Space Sector"],
   },
