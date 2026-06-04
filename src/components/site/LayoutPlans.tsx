@@ -48,15 +48,22 @@ export function LayoutPlans() {
 
 function PlanCard({ plan }: { plan: typeof plans[number] }) {
   const [open, setOpen] = useState(false);
+  const [loaded, setLoaded] = useState(false);
   return (
     <article className="group overflow-hidden rounded-3xl border border-border bg-card shadow-card transition hover:-translate-y-1 hover:shadow-luxe">
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
           <button className="relative block w-full overflow-hidden">
+            {!loaded && (
+              <div className="absolute inset-0 flex items-center justify-center bg-muted">
+                <Loader2 className="h-8 w-8 animate-spin text-primary" />
+              </div>
+            )}
             <img
               src={plan.img}
               alt={`${plan.title} — official sanctioned layout`}
               loading="lazy"
+              onLoad={() => setLoaded(true)}
               className="aspect-[16/10] w-full bg-white object-contain transition-transform duration-700 group-hover:scale-105"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
