@@ -24,7 +24,7 @@ export function Hero() {
           </div>
 
           <h1 className="font-display text-5xl font-bold leading-[1.05] text-white md:text-7xl">
-            Shri Sai Samarth <span className="text-gradient-warm">Developers</span>
+            Shree Sai Samarth <span className="text-gradient-warm">Developers</span>
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/85 md:text-xl">

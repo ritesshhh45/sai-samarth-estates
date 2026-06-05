@@ -90,7 +90,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "RealEstateAgent",
-          name: "Shri Sai Samarth Developers",
+          name: "Shree Sai Samarth Developers",
           telephone: "+91-8787545154",
           areaServed: "Aurangabad, Maharashtra",
           description: "Premium NA approved residential and commercial plot development.",
