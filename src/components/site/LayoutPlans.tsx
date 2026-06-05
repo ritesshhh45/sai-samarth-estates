@@ -9,18 +9,18 @@ import {
 
 const plans = [
   {
-    title: "Phase 1 Layout Plan",
-    subtitle: "Radhakrishna Nagar Phase II — Shendra, Aurangabad",
-    img: "/layouts/phase1.jpg",
-    file: "shree-sai-samarth-phase-1-layout.jpg",
-    chips: ["A · B · C · D · E Parts", "9.00 m Wide Roads", "Open Spaces", "Radhakrishna Mandir"],
+    title: "Yashwant Nagar — Phase 3",
+    subtitle: "Gut No. 203, Shendra Jahagir · Aurangabad",
+    img: "/brochure/b1-2.jpg",
+    file: "yashwant-nagar-phase-3-layout.jpg",
+    chips: ["NA-42(B) Approved", "150 Ft & 80 Ft Roads", "9 m Internal Road", "Near ISKCON Temple"],
   },
   {
-    title: "Phase 2 Layout Plan",
-    subtitle: "60 Ft Internal Road Sector — Plots 01 to 29",
-    img: "/layouts/phase2.jpg",
-    file: "shree-sai-samarth-phase-2-layout.jpg",
-    chips: ["NA-44 Approved", "60 Ft Wide Roads", "9 m Internal Road", "Open Space Sector"],
+    title: "Shree Nath Nagar — Phase 3",
+    subtitle: "Gut No. 255, Zalta Phata (Adgaon) · Aurangabad",
+    img: "/brochure/b2-2.jpg",
+    file: "shree-nath-nagar-phase-3-layout.jpg",
+    chips: ["AMRDA Approved", "60 M Wide Road", "77 Plots", "1000–1300 Sq Ft"],
   },
 ];
 
