@@ -34,7 +34,7 @@ export function About() {
             Building <span className="text-gradient-warm">trust</span><br/>one plot at a time.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
-            Shri Sai Samarth Developers specializes in NA-approved residential and commercial plot
+            Shree Sai Samarth Developers specializes in NA-approved residential and commercial plot
             development across Aurangabad. Our projects are crafted around transparency, legal
             clarity and long-term value — so every family that joins our community owns more than
             land; they own a future.

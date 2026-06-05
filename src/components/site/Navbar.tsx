@@ -33,7 +33,7 @@ export function Navbar() {
             S
           </div>
           <div className={`leading-tight ${scrolled ? "text-foreground" : "text-white"}`}>
-            <div className="font-display text-base font-semibold md:text-lg">Shri Sai Samarth</div>
+            <div className="font-display text-base font-semibold md:text-lg">Shree Sai Samarth</div>
             <div className="text-[10px] uppercase tracking-[0.18em] opacity-80">Developers</div>
           </div>
         </a>

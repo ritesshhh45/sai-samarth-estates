@@ -2,7 +2,7 @@ import { Ruler, MessageCircle, Phone } from "lucide-react";
 
 const WA = (size: string) =>
   `https://wa.me/918787545154?text=${encodeURIComponent(
-    `Hello, I'm interested in a ${size} plot at Shri Sai Samarth Developers. Please share details.`
+    `Hello, I'm interested in a ${size} plot at Shree Sai Samarth Developers. Please share details.`
   )}`;
 
 const plots = [

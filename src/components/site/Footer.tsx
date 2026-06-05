@@ -10,7 +10,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-warm font-display text-xl font-bold text-primary-foreground shadow-gold">S</div>
               <div>
-                <div className="font-display text-xl font-semibold">Shri Sai Samarth Developers</div>
+                <div className="font-display text-xl font-semibold">Shree Sai Samarth Developers</div>
                 <div className="text-xs uppercase tracking-[0.2em] opacity-70">Premium NA Plots · Aurangabad</div>
               </div>
             </div>
@@ -35,13 +35,13 @@ export function Footer() {
             <ul className="mt-4 space-y-3 text-sm opacity-90">
               <li><a href="tel:+918787545154" className="inline-flex items-center gap-2"><Phone className="h-4 w-4" /> +91 8787545154</a></li>
               <li><a href="https://wa.me/918787545154" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2"><MessageCircle className="h-4 w-4" /> WhatsApp Chat</a></li>
-              <li className="inline-flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4" /> Gat No. 203, Shendra Jahagir, Aurangabad</li>
+              <li className="inline-flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0" /> Shop No. 207, MIDC Industrial Area, Chilkalthana, Chhatrapati Sambhajinagar, Maharashtra 431006</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs opacity-70 md:flex-row">
-          <div>© {new Date().getFullYear()} Shri Sai Samarth Developers. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Shree Sai Samarth Developers. All rights reserved.</div>
           <div>NA Approved · AMRDA Sanctioned · Clear Title Plots</div>
         </div>
       </div>

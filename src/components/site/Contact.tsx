@@ -1,6 +1,9 @@
 import { useState, type FormEvent } from "react";
-import { Phone, MessageCircle, Mail, MapPin, Send, CheckCircle2 } from "lucide-react";
+import { Phone, MessageCircle, Mail, MapPin, Send, CheckCircle2, Navigation } from "lucide-react";
 import { z } from "zod";
+
+const OFFICE_ADDRESS = "Shop No. 207, MIDC Industrial Area, Chilkalthana, Chhatrapati Sambhajinagar, Maharashtra 431006";
+const MAPS_DIR = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(OFFICE_ADDRESS)}`;
 
 const schema = z.object({
   name: z.string().trim().min(2, "Enter your full name").max(80),
@@ -66,7 +69,33 @@ export function Contact() {
               <ContactItem icon={Phone} label="Call us" value="+91 8787545154" href="tel:+918787545154" />
               <ContactItem icon={MessageCircle} label="WhatsApp" value="+91 8787545154" href="https://wa.me/918787545154" />
               <ContactItem icon={Mail} label="Email" value="info@shrisaisamarthdevelopers.in" href="mailto:info@shrisaisamarthdevelopers.in" />
-              <ContactItem icon={MapPin} label="Site Address" value="Gat No. 203, Shendra Jahagir, Aurangabad" href="https://www.google.com/maps/dir/?api=1&destination=Shendra+Jahagir+Aurangabad" />
+              <ContactItem icon={MapPin} label="Office Address" value={OFFICE_ADDRESS} href={MAPS_DIR} />
+            </div>
+
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a
+                href="tel:+918787545154"
+                className="inline-flex items-center gap-2 rounded-full bg-gradient-warm px-6 py-3 text-sm font-semibold text-primary-foreground shadow-gold transition hover:scale-[1.03]"
+              >
+                <Phone className="h-4 w-4" /> Call Now
+              </a>
+              <a
+                href="https://wa.me/918787545154"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-luxe transition hover:scale-[1.03]"
+                style={{ background: "var(--whatsapp)" }}
+              >
+                <MessageCircle className="h-4 w-4" /> WhatsApp
+              </a>
+              <a
+                href={MAPS_DIR}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground shadow-card transition hover:scale-[1.03]"
+              >
+                <Navigation className="h-4 w-4" /> Get Directions
+              </a>
             </div>
           </div>
 

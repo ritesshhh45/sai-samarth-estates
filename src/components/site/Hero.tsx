@@ -8,7 +8,7 @@ export function Hero() {
     <section id="top" className="relative min-h-[100svh] overflow-hidden">
       <img
         src={heroImg}
-        alt="Shri Sai Samarth Developers project site at sunrise"
+        alt="Shree Sai Samarth Developers project site at sunrise"
         width={1920}
         height={1080}
         className="absolute inset-0 h-full w-full object-cover"
@@ -24,7 +24,7 @@ export function Hero() {
           </div>
 
           <h1 className="font-display text-5xl font-bold leading-[1.05] text-white md:text-7xl">
-            Shri Sai Samarth <span className="text-gradient-warm">Developers</span>
+            Shree Sai Samarth <span className="text-gradient-warm">Developers</span>
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/85 md:text-xl">

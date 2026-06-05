@@ -1,6 +1,6 @@
 import { Phone, MessageCircle } from "lucide-react";
 
-const WA_URL = "https://wa.me/918787545154?text=Hello%20Shri%20Sai%20Samarth%20Developers%2C%20I%27m%20interested%20in%20your%20NA%20plots.";
+const WA_URL = "https://wa.me/918787545154?text=Hello%20Shree%20Sai%20Samarth%20Developers%2C%20I%27m%20interested%20in%20your%20NA%20plots.";
 
 export function FloatingActions() {
   return (
