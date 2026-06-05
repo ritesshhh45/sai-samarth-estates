@@ -69,7 +69,7 @@ export function Contact() {
               <ContactItem icon={Phone} label="Call us" value="+91 8787545154" href="tel:+918787545154" />
               <ContactItem icon={MessageCircle} label="WhatsApp" value="+91 8787545154" href="https://wa.me/918787545154" />
               <ContactItem icon={Mail} label="Email" value="info@shrisaisamarthdevelopers.in" href="mailto:info@shrisaisamarthdevelopers.in" />
-              <ContactItem icon={MapPin} label="Site Address" value="Gat No. 203, Shendra Jahagir, Aurangabad" href="https://www.google.com/maps/dir/?api=1&destination=Shendra+Jahagir+Aurangabad" />
+              <ContactItem icon={MapPin} label="Office Address" value={OFFICE_ADDRESS} href={MAPS_DIR} />
             </div>
           </div>
 
