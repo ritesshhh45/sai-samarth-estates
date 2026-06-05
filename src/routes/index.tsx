@@ -1,8 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
+import { TrustBadges } from "@/components/site/TrustBadges";
+import { OfficeSection } from "@/components/site/OfficeSection";
 import { About } from "@/components/site/About";
 import { LayoutPlans } from "@/components/site/LayoutPlans";
+import { BrochureSection } from "@/components/site/BrochureSection";
+import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { Highlights } from "@/components/site/Highlights";
 import { Plots } from "@/components/site/Plots";
 import { Location } from "@/components/site/Location";
@@ -20,7 +24,7 @@ export const Route = createFileRoute("/")({
       { title: "Shree Sai Samarth Developers | Premium NA Plots in Aurangabad" },
       { name: "description", content: "Buy premium AMRDA-approved residential & commercial NA plots from Shree Sai Samarth Developers. Clear title, wide roads, modern amenities — ready for registration." },
       { property: "og:title", content: "Shree Sai Samarth Developers | Premium NA Plots" },
-      { property: "og:description", content: "AMRDA-approved residential & commercial NA plots in Shendra, Aurangabad. Clear title, ready registration, investment friendly." },
+      { property: "og:description", content: "AMRDA-approved residential & commercial NA plots in Shendra & Adgaon, Aurangabad. Clear title, ready registration, investment friendly." },
     ],
     links: [{ rel: "canonical", href: "/" }],
   }),
@@ -33,8 +37,12 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <TrustBadges />
+        <OfficeSection />
         <About />
         <LayoutPlans />
+        <BrochureSection />
+        <WhyChooseUs />
         <Highlights />
         <Plots />
         <Location />
