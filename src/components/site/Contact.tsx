@@ -2,8 +2,8 @@ import { useState, type FormEvent } from "react";
 import { Phone, MessageCircle, Mail, MapPin, Send, CheckCircle2, Navigation } from "lucide-react";
 import { z } from "zod";
 
-const OFFICE_ADDRESS = "Shop No. 207, MIDC Industrial Area, Chilkalthana, Chhatrapati Sambhajinagar, Maharashtra 431006";
-const MAPS_DIR = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(OFFICE_ADDRESS)}`;
+const OFFICE_ADDRESS = "Shop No. 207, 2nd Floor, Golden City Center, Near Prozone Mall, Chilkalthana, Chhatrapati Sambhajinagar, Maharashtra 431006";
+const MAPS_DIR = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Golden City Center, Prozone Mall, Chilkalthana, Chhatrapati Sambhajinagar")}`;
 
 const schema = z.object({
   name: z.string().trim().min(2, "Enter your full name").max(80),

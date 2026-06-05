@@ -35,7 +35,7 @@ export function Footer() {
             <ul className="mt-4 space-y-3 text-sm opacity-90">
               <li><a href="tel:+918787545154" className="inline-flex items-center gap-2"><Phone className="h-4 w-4" /> +91 8787545154</a></li>
               <li><a href="https://wa.me/918787545154" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2"><MessageCircle className="h-4 w-4" /> WhatsApp Chat</a></li>
-              <li className="inline-flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0" /> Shop No. 207, MIDC Industrial Area, Chilkalthana, Chhatrapati Sambhajinagar, Maharashtra 431006</li>
+              <li className="inline-flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0" /> Shop No. 207, 2nd Floor, Golden City Center, Near Prozone Mall, Chilkalthana, Chhatrapati Sambhajinagar, Maharashtra 431006</li>
             </ul>
           </div>
         </div>
