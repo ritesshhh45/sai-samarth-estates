@@ -41,7 +41,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs opacity-70 md:flex-row">
-          <div>© {new Date().getFullYear()} Shri Sai Samarth Developers. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Shree Sai Samarth Developers. All rights reserved.</div>
           <div>NA Approved · AMRDA Sanctioned · Clear Title Plots</div>
         </div>
       </div>
