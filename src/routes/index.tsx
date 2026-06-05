@@ -41,6 +41,7 @@ function Index() {
         <Gallery />
         <Testimonials />
         <Faq />
+        <MapSection />
         <Contact />
       </main>
       <Footer />
