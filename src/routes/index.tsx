@@ -16,9 +16,9 @@ import { FloatingActions } from "@/components/site/FloatingActions";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Shri Sai Samarth Developers | Premium NA Plots in Aurangabad" },
-      { name: "description", content: "Buy premium AMRDA-approved residential & commercial NA plots from Shri Sai Samarth Developers. Clear title, wide roads, modern amenities — ready for registration." },
-      { property: "og:title", content: "Shri Sai Samarth Developers | Premium NA Plots" },
+      { title: "Shree Sai Samarth Developers | Premium NA Plots in Aurangabad" },
+      { name: "description", content: "Buy premium AMRDA-approved residential & commercial NA plots from Shree Sai Samarth Developers. Clear title, wide roads, modern amenities — ready for registration." },
+      { property: "og:title", content: "Shree Sai Samarth Developers | Premium NA Plots" },
       { property: "og:description", content: "AMRDA-approved residential & commercial NA plots in Shendra, Aurangabad. Clear title, ready registration, investment friendly." },
     ],
     links: [{ rel: "canonical", href: "/" }],
