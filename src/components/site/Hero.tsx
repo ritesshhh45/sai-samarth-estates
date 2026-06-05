@@ -8,7 +8,7 @@ export function Hero() {
     <section id="top" className="relative min-h-[100svh] overflow-hidden">
       <img
         src={heroImg}
-        alt="Shri Sai Samarth Developers project site at sunrise"
+        alt="Shree Sai Samarth Developers project site at sunrise"
         width={1920}
         height={1080}
         className="absolute inset-0 h-full w-full object-cover"
