@@ -10,7 +10,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-warm font-display text-xl font-bold text-primary-foreground shadow-gold">S</div>
               <div>
-                <div className="font-display text-xl font-semibold">Shri Sai Samarth Developers</div>
+                <div className="font-display text-xl font-semibold">Shree Sai Samarth Developers</div>
                 <div className="text-xs uppercase tracking-[0.2em] opacity-70">Premium NA Plots · Aurangabad</div>
               </div>
             </div>
