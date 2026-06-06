@@ -1,5 +1,5 @@
 import { Quote, ShieldCheck, Award, Users, TrendingUp, Phone, MessageCircle } from "lucide-react";
-import founderAsset from "@/assets/founder.png.asset.json";
+const founderAsset = { url: "/assets/team/founder.png" };
 
 const stats = [
   { icon: Award, k: "15+", l: "Years Experience" },
