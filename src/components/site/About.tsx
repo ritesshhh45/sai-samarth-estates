@@ -1,12 +1,13 @@
-import { ShieldCheck, FileCheck2, HandshakeIcon, Award } from "lucide-react";
-import entrance from "@/assets/site-entrance.jpg";
+import { ShieldCheck, FileCheck2, HandshakeIcon, Award, Navigation, MapPin } from "lucide-react";
 
 const pillars = [
-  { icon: ShieldCheck, title: "Legal & Transparent", text: "100% NA approved, AMRDA sanctioned layouts and clear title plots." },
+  { icon: ShieldCheck, title: "AMRDA Approved", text: "Sanctioned layouts with 100% NA approval and clear title plots." },
   { icon: FileCheck2, title: "Ready Registration", text: "Documentation handled end-to-end so you register with confidence." },
   { icon: HandshakeIcon, title: "Customer First", text: "Honest pricing, no hidden charges and lifetime project support." },
-  { icon: Award, title: "Proven Track Record", text: "Hundreds of happy families across Aurangabad's growing corridors." },
+  { icon: Award, title: "15+ Years of Trust", text: "Hundreds of happy families across Aurangabad's growing corridors." },
 ];
+
+const MAPS_DIR = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Golden City Center, Prozone Mall, Chilkalthana, Chhatrapati Sambhajinagar")}`;
 
 export function About() {
   return (
@@ -15,16 +16,21 @@ export function About() {
         <div className="relative">
           <div className="absolute -inset-4 rounded-3xl bg-gradient-warm opacity-20 blur-2xl" />
           <img
-            src={entrance}
-            alt="Premium project entrance with stone pillars and landscaped approach"
+            src="/office/office-front.jpg"
+            alt="Shree Sai Samarth Developers — corporate office at Golden City Center, Chhatrapati Sambhajinagar"
             width={1600}
-            height={1000}
+            height={1200}
             loading="lazy"
+            decoding="async"
             className="relative aspect-[5/4] w-full rounded-3xl object-cover shadow-luxe"
           />
           <div className="absolute -bottom-6 -right-4 hidden rounded-2xl bg-card px-6 py-4 shadow-luxe md:block">
             <div className="font-display text-3xl text-gradient-warm">15+ Yrs</div>
-            <div className="text-xs uppercase tracking-widest text-muted-foreground">Land Expertise</div>
+            <div className="text-xs uppercase tracking-widest text-muted-foreground">Of Trust</div>
+          </div>
+          <div className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full glass-dark px-3 py-1.5 text-xs font-semibold text-white">
+            <MapPin className="h-3.5 w-3.5" style={{ color: "var(--gold)" }} />
+            Our Corporate Office
           </div>
         </div>
 
@@ -34,10 +40,10 @@ export function About() {
             Building <span className="text-gradient-warm">trust</span><br/>one plot at a time.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
-            Shree Sai Samarth Developers specializes in NA-approved residential and commercial plot
-            development across Aurangabad. Our projects are crafted around transparency, legal
-            clarity and long-term value — so every family that joins our community owns more than
-            land; they own a future.
+            Shree Sai Samarth Developers specializes in AMRDA-approved, NA-sanctioned residential and
+            commercial plot development across Aurangabad. With over 15 years of expertise, our projects
+            are crafted around transparency, legal clarity and long-term value — so every family that
+            joins our community owns more than land; they own a future.
           </p>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -50,6 +56,17 @@ export function About() {
                 <p className="mt-1 text-sm text-muted-foreground">{p.text}</p>
               </div>
             ))}
+          </div>
+
+          <div className="mt-8">
+            <a
+              href={MAPS_DIR}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-warm px-6 py-3 text-sm font-semibold text-primary-foreground shadow-gold transition hover:scale-[1.03]"
+            >
+              <Navigation className="h-4 w-4" /> Visit Our Office
+            </a>
           </div>
         </div>
       </div>
