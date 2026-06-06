@@ -1,7 +1,7 @@
 import { Phone, MessageCircle, Award, Users, ShieldCheck, TrendingUp } from "lucide-react";
-import founderAsset from "@/assets/founder.png.asset.json";
-import directorAsset from "@/assets/director.png.asset.json";
-import relationsAsset from "@/assets/relations.png.asset.json";
+const founderAsset = { url: "/assets/team/founder.png" };
+const directorAsset = { url: "/assets/team/director.png" };
+const relationsAsset = { url: "/assets/team/relations.png" };
 
 const team = [
   {
