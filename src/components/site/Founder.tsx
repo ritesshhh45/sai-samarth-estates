@@ -43,26 +43,14 @@ export function Founder() {
                 className="relative aspect-square w-64 rounded-full p-[6px] shadow-luxe md:w-80"
                 style={{ background: "var(--gradient-warm)" }}
               >
-                <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full bg-card">
-                  {/* Premium monogram (swap with portrait when uploaded) */}
-                  <div
-                    className="absolute inset-2 rounded-full"
-                    style={{
-                      background:
-                        "radial-gradient(circle at 30% 30%, color-mix(in oklab, var(--gold) 20%, transparent), transparent 60%), var(--card)",
-                    }}
+                <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full bg-card ring-4 ring-background">
+                  <img
+                    src={founderAsset.url}
+                    alt="Mr. Subhash Sisode — Founder & Managing Director, Shree Sai Samarth Developers"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-cover object-top"
                   />
-                  <div className="relative text-center">
-                    <div
-                      className="font-display text-7xl font-bold leading-none md:text-8xl"
-                      style={{ color: "var(--gold)" }}
-                    >
-                      SS
-                    </div>
-                    <div className="mt-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
-                      Founder
-                    </div>
-                  </div>
                 </div>
               </div>
 
