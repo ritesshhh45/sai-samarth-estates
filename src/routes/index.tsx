@@ -41,6 +41,7 @@ function Index() {
         <Hero />
         <TrustBadges />
         <Founder />
+        <Leadership />
         <OfficeSection />
         <About />
         <LayoutPlans />
