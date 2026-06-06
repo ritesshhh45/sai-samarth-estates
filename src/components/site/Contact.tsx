@@ -68,7 +68,7 @@ export function Contact() {
             <div className="mt-8 space-y-4">
               <ContactItem icon={Phone} label="Call us" value="+91 8787545154" href="tel:+918787545154" />
               <ContactItem icon={MessageCircle} label="WhatsApp" value="+91 8787545154" href="https://wa.me/918787545154" />
-              <ContactItem icon={Mail} label="Email" value="info@shrisaisamarthdevelopers.in" href="mailto:info@shrisaisamarthdevelopers.in" />
+              <ContactItem icon={Mail} label="Email" value="subhashsisode45@gmail.com" href="mailto:subhashsisode45@gmail.com" />
               <ContactItem icon={MapPin} label="Office Address" value={OFFICE_ADDRESS} href={MAPS_DIR} />
             </div>
 
