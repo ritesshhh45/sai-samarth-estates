@@ -3,6 +3,7 @@ import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { TrustBadges } from "@/components/site/TrustBadges";
 import { Founder } from "@/components/site/Founder";
+import { Leadership } from "@/components/site/Leadership";
 import { OfficeSection } from "@/components/site/OfficeSection";
 import { About } from "@/components/site/About";
 import { LayoutPlans } from "@/components/site/LayoutPlans";
@@ -40,6 +41,7 @@ function Index() {
         <Hero />
         <TrustBadges />
         <Founder />
+        <Leadership />
         <OfficeSection />
         <About />
         <LayoutPlans />
