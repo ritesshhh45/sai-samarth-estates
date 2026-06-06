@@ -1,4 +1,4 @@
-import { Navigation, Phone, MessageCircle, MapPin, Building2 } from "lucide-react";
+import { Navigation, Phone, MessageCircle, MapPin, Building2, Mail } from "lucide-react";
 
 const ADDRESS = "Shop No. 207, 2nd Floor, Golden City Center, Near Prozone Mall, Chilkalthana, Chhatrapati Sambhajinagar, Maharashtra 431006";
 const DIR_URL = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Golden City Center, Prozone Mall, Chilkalthana, Chhatrapati Sambhajinagar")}`;
@@ -52,6 +52,9 @@ export function OfficeSection() {
               <div className="mt-5 grid gap-2 text-sm">
                 <a href="tel:+918787545154" className="inline-flex items-center gap-2 font-medium text-foreground hover:text-primary">
                   <Phone className="h-4 w-4 text-primary" /> +91 8787545154
+                </a>
+                <a href="mailto:subhashsisode45@gmail.com" className="inline-flex items-center gap-2 font-medium text-foreground hover:text-primary">
+                  <Mail className="h-4 w-4 text-primary" /> subhashsisode45@gmail.com
                 </a>
                 <div className="text-xs text-muted-foreground">Open Mon–Sat · 10:00 AM – 7:00 PM</div>
               </div>
