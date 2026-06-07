@@ -28,14 +28,16 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
-        <a href="#top" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-gradient-warm font-display text-lg font-bold text-primary-foreground shadow-gold">
-            S
-          </div>
-          <div className={`leading-tight ${scrolled ? "text-foreground" : "text-white"}`}>
-            <div className="font-display text-base font-semibold md:text-lg">Shree Sai Samarth</div>
-            <div className="text-[10px] uppercase tracking-[0.18em] opacity-80">Developers</div>
-          </div>
+        <a href="#top" aria-label="Shree Sai Samarth Developers — Home" className="flex items-center">
+          <img
+            src="/assets/brand/logo.png"
+            alt="Shree Sai Samarth Developers"
+            width={240}
+            height={80}
+            loading="eager"
+            decoding="async"
+            className="h-[60px] w-auto md:h-[72px] object-contain"
+          />
         </a>
 
         <nav className="hidden items-center gap-7 md:flex">
