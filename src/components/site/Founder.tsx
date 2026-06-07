@@ -1,5 +1,5 @@
 import { Quote, ShieldCheck, Award, Users, TrendingUp, Phone, MessageCircle } from "lucide-react";
-const founderAsset = { url: "/assets/team/founder.png" };
+const founderAsset = { url: "/assets/team/avinash.png" };
 
 const stats = [
   { icon: Award, k: "15+", l: "Years Experience" },
