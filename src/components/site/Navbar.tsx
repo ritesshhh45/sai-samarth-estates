@@ -29,15 +29,17 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
         <a href="#top" aria-label="Shree Sai Samarth Developers — Home" className="flex items-center">
-          <img
-            src="/assets/brand/logo.png"
-            alt="Shree Sai Samarth Developers"
-            width={240}
-            height={80}
-            loading="eager"
-            decoding="async"
-            className="h-[60px] w-auto md:h-[72px] object-contain"
-          />
+          <div className="bg-white rounded-[10px] shadow-card p-3">
+            <img
+              src="/assets/brand/logo.png"
+              alt="Shree Sai Samarth Developers"
+              width={240}
+              height={80}
+              loading="eager"
+              decoding="async"
+              className="h-[60px] w-auto md:h-[80px] object-contain"
+            />
+          </div>
         </a>
 
         <nav className="hidden items-center gap-7 md:flex">
