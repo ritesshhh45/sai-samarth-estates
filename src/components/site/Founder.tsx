@@ -46,7 +46,7 @@ export function Founder() {
                 <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full bg-card ring-4 ring-background">
                   <img
                     src={founderAsset.url}
-                    alt="Mr. Subhash Sisode — Founder & Managing Director, Shree Sai Samarth Developers"
+                    alt="Mr. Avinash Pawar — Founder & Managing Director, Shree Sai Samarth Developers"
                     loading="lazy"
                     decoding="async"
                     className="h-full w-full object-cover object-top"
