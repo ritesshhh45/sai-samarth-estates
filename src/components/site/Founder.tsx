@@ -70,7 +70,7 @@ export function Founder() {
               <Quote className="absolute right-6 top-6 h-12 w-12 opacity-10" style={{ color: "var(--gold)" }} />
 
               <div className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Founder &amp; Managing Director</div>
-              <h3 className="mt-2 font-display text-3xl font-bold md:text-4xl">Mr. Subhash Sisode</h3>
+              <h3 className="mt-2 font-display text-3xl font-bold md:text-4xl">Mr. Avinash Pawar</h3>
               <div className="mt-1 text-sm text-muted-foreground">Shree Sai Samarth Developers · Chhatrapati Sambhajinagar</div>
 
               <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
