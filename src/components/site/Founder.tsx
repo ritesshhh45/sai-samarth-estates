@@ -1,5 +1,5 @@
 import { Quote, ShieldCheck, Award, Users, TrendingUp, Phone, MessageCircle } from "lucide-react";
-const founderAsset = { url: "/assets/team/founder.png" };
+const founderAsset = { url: "/assets/team/avinash.png" };
 
 const stats = [
   { icon: Award, k: "15+", l: "Years Experience" },
@@ -46,7 +46,7 @@ export function Founder() {
                 <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full bg-card ring-4 ring-background">
                   <img
                     src={founderAsset.url}
-                    alt="Mr. Subhash Sisode — Founder & Managing Director, Shree Sai Samarth Developers"
+                    alt="Mr. Avinash Pawar — Founder & Managing Director, Shree Sai Samarth Developers"
                     loading="lazy"
                     decoding="async"
                     className="h-full w-full object-cover object-top"
@@ -70,7 +70,7 @@ export function Founder() {
               <Quote className="absolute right-6 top-6 h-12 w-12 opacity-10" style={{ color: "var(--gold)" }} />
 
               <div className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Founder &amp; Managing Director</div>
-              <h3 className="mt-2 font-display text-3xl font-bold md:text-4xl">Mr. Subhash Sisode</h3>
+              <h3 className="mt-2 font-display text-3xl font-bold md:text-4xl">Mr. Avinash Pawar</h3>
               <div className="mt-1 text-sm text-muted-foreground">Shree Sai Samarth Developers · Chhatrapati Sambhajinagar</div>
 
               <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -100,7 +100,7 @@ export function Founder() {
                   <Phone className="h-4 w-4" /> Call the Founder
                 </a>
                 <a
-                  href="https://wa.me/918787545154?text=Hello%20Mr.%20Sisode%2C%20I%27d%20like%20to%20know%20more%20about%20your%20plots."
+                  href="https://wa.me/918787545154?text=Hello%20Mr.%20Pawar%2C%20I%27d%20like%20to%20know%20more%20about%20your%20plots."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-luxe transition hover:scale-[1.03]"
