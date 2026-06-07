@@ -100,7 +100,7 @@ export function Founder() {
                   <Phone className="h-4 w-4" /> Call the Founder
                 </a>
                 <a
-                  href="https://wa.me/918787545154?text=Hello%20Mr.%20Sisode%2C%20I%27d%20like%20to%20know%20more%20about%20your%20plots."
+                  href="https://wa.me/918787545154?text=Hello%20Mr.%20Pawar%2C%20I%27d%20like%20to%20know%20more%20about%20your%20plots."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-luxe transition hover:scale-[1.03]"
