@@ -1,26 +1,23 @@
 import { Phone, MessageCircle, Award, Users, ShieldCheck, TrendingUp } from "lucide-react";
-const founderAsset = { url: "/assets/team/founder.png" };
-const directorAsset = { url: "/assets/team/director.png" };
-const relationsAsset = { url: "/assets/team/relations.png" };
 
 const team = [
   {
-    img: founderAsset.url,
+    img: "/assets/team/avinash.png",
     role: "Founder & Managing Director",
+    name: "Mr. Avinash Pawar",
+    sub: "Shree Sai Samarth Developers",
+  },
+  {
+    img: "/assets/team/subhash.png",
+    role: "Co-Founder",
     name: "Mr. Subhash Sisode",
     sub: "Shree Sai Samarth Developers",
   },
   {
-    img: directorAsset.url,
-    role: "Director",
-    name: "Shree Sai Samarth Developers Team",
-    sub: "Strategy & Land Development",
-  },
-  {
-    img: relationsAsset.url,
-    role: "Project & Customer Relations",
-    name: "Shree Sai Samarth Developers Team",
-    sub: "Bookings, Site Visits & Support",
+    img: "/assets/team/pankaj.png",
+    role: "Co-Founder",
+    name: "Mr. Pankaj Chavan",
+    sub: "Shree Sai Samarth Developers",
   },
 ];
 
