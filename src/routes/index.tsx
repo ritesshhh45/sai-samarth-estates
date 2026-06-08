@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
+import { LogoIntro } from "@/components/site/LogoIntro";
 import { Hero } from "@/components/site/Hero";
 import { TrustBadges } from "@/components/site/TrustBadges";
 import { Founder } from "@/components/site/Founder";
@@ -36,6 +37,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-background">
+      <LogoIntro />
       <Navbar />
       <main>
         <Hero />
