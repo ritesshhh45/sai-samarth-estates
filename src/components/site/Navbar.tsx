@@ -23,23 +23,26 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+      id="site-header"
+      className={`fixed inset-x-0 top-0 z-40 transition-all duration-300 ${
         scrolled ? "glass shadow-card" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
-        <a href="#top" aria-label="Shree Sai Samarth Developers — Home" className="flex items-center">
-          <div className="bg-white rounded-[10px] shadow-card p-3">
-            <img
-              src="/assets/brand/logo.png"
-              alt="Shree Sai Samarth Developers"
-              width={240}
-              height={80}
-              loading="eager"
-              decoding="async"
-              className="h-[60px] w-auto md:h-[80px] object-contain"
-            />
-          </div>
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 md:px-8 md:py-2.5">
+        <a
+          href="#top"
+          aria-label="Shree Sai Samarth Developers — Home"
+          className="flex items-center"
+        >
+          <img
+            src="/assets/brand/logo.png"
+            alt="Shree Sai Samarth Developers"
+            width={160}
+            height={64}
+            loading="eager"
+            decoding="async"
+            className="h-auto w-[110px] md:w-[150px] object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.25)]"
+          />
         </a>
 
         <nav className="hidden items-center gap-7 md:flex">
@@ -56,7 +59,7 @@ export function Navbar() {
           ))}
           <a
             href="tel:+918787545154"
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-warm px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-gold transition-transform hover:scale-[1.03]"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-warm px-4 py-2 text-sm font-semibold text-primary-foreground shadow-gold transition-transform hover:scale-[1.03]"
           >
             <Phone className="h-4 w-4" /> 8787545154
           </a>
