@@ -25,7 +25,7 @@ export function Navbar() {
     <header
       id="site-header"
       className={`fixed inset-x-0 top-0 z-40 transition-all duration-300 ${
-        scrolled ? "glass shadow-card" : "bg-transparent"
+        scrolled ? "glass shadow-card" : "bg-[rgba(15,20,35,0.35)] backdrop-blur-md"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 md:px-8 md:py-2.5">
@@ -37,11 +37,11 @@ export function Navbar() {
           <img
             src="/assets/brand/logo.png"
             alt="Shree Sai Samarth Developers"
-            width={180}
-            height={55}
+            width={130}
+            height={40}
             loading="eager"
             decoding="async"
-            className="h-[45px] md:h-[55px] w-auto object-contain drop-shadow-[0_2px_6px_rgba(0,0,0,0.18)]"
+            className="h-[32px] md:h-[39px] w-auto object-contain drop-shadow-[0_4px_14px_rgba(56,189,248,0.45)]"
           />
         </a>
 
@@ -50,16 +50,14 @@ export function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                scrolled ? "text-foreground/80" : "text-white/90"
-              }`}
+              className="text-sm font-medium text-white/90 transition-colors hover:text-[#38BDF8]"
             >
               {l.label}
             </a>
           ))}
           <a
             href="tel:+918787545154"
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-warm px-4 py-2 text-sm font-semibold text-primary-foreground shadow-gold transition-transform hover:scale-[1.03]"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#1E3A8A] to-[#38BDF8] px-4 py-2 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_rgba(56,189,248,0.6)] transition-all hover:shadow-[0_10px_30px_-6px_rgba(56,189,248,0.85)] hover:scale-[1.03]"
           >
             <Phone className="h-4 w-4" /> 8787545154
           </a>
@@ -67,7 +65,7 @@ export function Navbar() {
 
         <button
           onClick={() => setOpen((v) => !v)}
-          className={`md:hidden rounded-md p-2 ${scrolled ? "text-foreground" : "text-white"}`}
+          className="md:hidden rounded-md p-2 text-white"
           aria-label="Toggle menu"
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -75,21 +73,21 @@ export function Navbar() {
       </div>
 
       {open && (
-        <div className="glass border-t border-border md:hidden">
+        <div className="glass border-t border-[rgba(56,189,248,0.18)] md:hidden">
           <div className="flex flex-col gap-1 px-4 py-3">
             {links.map((l) => (
               <a
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="rounded-md px-3 py-2 text-sm font-medium text-foreground hover:bg-accent"
+                className="rounded-md px-3 py-2 text-sm font-medium text-white/90 hover:bg-white/10"
               >
                 {l.label}
               </a>
             ))}
             <a
               href="tel:+918787545154"
-              className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-warm px-5 py-3 text-sm font-semibold text-primary-foreground shadow-gold"
+              className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#1E3A8A] to-[#38BDF8] px-5 py-3 text-sm font-semibold text-white shadow-gold"
             >
               <Phone className="h-4 w-4" /> Call 8787545154
             </a>
