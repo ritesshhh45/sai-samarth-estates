@@ -37,11 +37,11 @@ export function Navbar() {
           <img
             src="/assets/brand/logo.png"
             alt="Shree Sai Samarth Developers"
-            width={160}
-            height={64}
+            width={180}
+            height={55}
             loading="eager"
             decoding="async"
-            className="h-auto w-[110px] md:w-[150px] object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.25)]"
+            className="h-[45px] md:h-[55px] w-auto object-contain drop-shadow-[0_2px_6px_rgba(0,0,0,0.18)]"
           />
         </a>
 
