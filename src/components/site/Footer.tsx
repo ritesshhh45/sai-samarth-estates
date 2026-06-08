@@ -44,6 +44,19 @@ export function Footer() {
           <div>© {new Date().getFullYear()} Shree Sai Samarth Developers. All rights reserved.</div>
           <div>NA Approved · AMRDA Sanctioned · Clear Title Plots</div>
         </div>
+
+        <div className="mt-6 text-center text-[11px] tracking-wide opacity-80">
+          Designed &amp; Developed by{" "}
+          <a
+            href="https://riteshpawarwebstudio.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold transition-opacity hover:opacity-100"
+            style={{ color: "#D4AF37" }}
+          >
+            Ritesh Pawar Web Studio
+          </a>
+        </div>
       </div>
     </footer>
   );
