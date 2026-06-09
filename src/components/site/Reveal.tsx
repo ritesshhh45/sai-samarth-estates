@@ -1,5 +1,5 @@
 import { ReactNode, CSSProperties } from "react";
-import { useReveal } from "@/hooks/use-reveal";
+import { useReveal, useCountUp } from "@/hooks/use-reveal";
 
 interface RevealProps {
   children: ReactNode;
@@ -35,8 +35,6 @@ interface CountUpProps {
 }
 
 export function CountUp({ to, suffix = "", prefix = "", duration = 1600, className }: CountUpProps) {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const { useCountUp } = require("@/hooks/use-reveal");
   const { ref, value } = useCountUp(to, duration);
   return (
     <span ref={ref} className={className}>
