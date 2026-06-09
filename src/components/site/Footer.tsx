@@ -54,7 +54,7 @@ export function Footer() {
             className="font-semibold transition-opacity hover:opacity-100"
             style={{ color: "#D4AF37" }}
           >
-            Ritesh Pawar Web Studio
+            Ritesh Web Studio
           </a>
         </div>
       </div>

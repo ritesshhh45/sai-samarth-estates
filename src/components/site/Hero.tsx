@@ -14,7 +14,7 @@ export function Hero() {
         className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-hero" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0F172A]/85 via-[#1E3A8A]/55 to-[#0F172A]/30" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#2B1B18]/85 via-[#5A2328]/55 to-[#2B1B18]/40" />
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-center px-5 pb-16 pt-32 md:px-8">
         <div className="max-w-3xl animate-fade-up">

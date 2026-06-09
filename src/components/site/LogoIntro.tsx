@@ -56,7 +56,7 @@ export function LogoIntro() {
       texture.colorSpace = THREE.SRGBColorSpace;
       const img = texture.image as HTMLImageElement;
       const aspect = img.width / img.height;
-      const planeH = 2.4;
+      const planeH = 1.8;
       const planeW = planeH * aspect;
 
       const mat = new THREE.MeshStandardMaterial({
@@ -147,7 +147,7 @@ export function LogoIntro() {
   return (
     <div
       aria-hidden
-      className={`fixed inset-0 z-[100] flex items-center justify-center bg-gradient-to-br from-[#0d0a08] via-[#1a1310] to-[#0d0a08] transition-opacity duration-700 ${
+      className={`fixed inset-0 z-[100] flex items-center justify-center bg-gradient-to-br from-[#F8F5F0] via-[#EFE6D6] to-[#E5D6B8] transition-opacity duration-700 ${
         fadingOut ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
     >
@@ -156,7 +156,7 @@ export function LogoIntro() {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(255,140,60,0.18), transparent 60%)",
+            "radial-gradient(ellipse at center, rgba(200,155,74,0.25), transparent 60%)",
         }}
       />
       <div ref={mountRef} className="relative h-[60vh] w-[90vw] max-w-[820px]" />
