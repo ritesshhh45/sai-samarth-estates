@@ -188,19 +188,19 @@ export function LogoIntro() {
     <div
       ref={overlayRef}
       aria-hidden
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-gradient-to-br from-[#1c0f0d] via-[#2B1B18] to-[#1c0f0d]"
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-gradient-to-br from-[#050505] via-[#111111] to-[#050505]
       style={{ pointerEvents: phase === "handoff" ? "none" : "auto" }}
     >
       <div
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(200,155,74,0.22), transparent 60%)",
+            "radial-gradient(ellipse at center, rgba(255,215,120,0.12), transparent 60%)",
         }}
       />
       <div
         ref={logoWrapRef}
-        className="relative h-[70vh] w-[95vw] max-w-[1000px]"
+        className="relative h-[70vh] w-[85vw] max-w-[750px]"
         style={{ transformOrigin: "center center" }}
       >
         <div ref={mountRef} className="absolute inset-0" />
