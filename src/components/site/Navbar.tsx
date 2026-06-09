@@ -59,22 +59,6 @@ export function Navbar() {
             href="tel:+918787545154"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#5A2328] to-[#C89B4A] px-4 py-2 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_rgba(200,155,74,0.6)] transition-all hover:shadow-[0_10px_30px_-6px_rgba(200,155,74,0.85)] hover:scale-[1.03]"
           >
-        </a>
-
-        <nav className="hidden items-center gap-7 md:flex">
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-sm font-medium text-white/90 transition-colors hover:text-[#38BDF8]"
-            >
-              {l.label}
-            </a>
-          ))}
-          <a
-            href="tel:+918787545154"
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#1E3A8A] to-[#38BDF8] px-4 py-2 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_rgba(56,189,248,0.6)] transition-all hover:shadow-[0_10px_30px_-6px_rgba(56,189,248,0.85)] hover:scale-[1.03]"
-          >
             <Phone className="h-4 w-4" /> 8787545154
           </a>
         </nav>
