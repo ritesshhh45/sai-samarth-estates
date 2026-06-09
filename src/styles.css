@@ -128,10 +128,10 @@
   .shadow-card { box-shadow: var(--shadow-card); }
   .shadow-gold { box-shadow: var(--shadow-gold); }
   .glass {
-    background: rgba(15, 20, 35, 0.65);
+    background: rgba(43, 27, 24, 0.55);
     backdrop-filter: blur(16px) saturate(160%);
     -webkit-backdrop-filter: blur(16px) saturate(160%);
-    border-bottom: 1px solid rgba(56, 189, 248, 0.18);
+    border-bottom: 1px solid rgba(200, 155, 74, 0.25);
   }
   .glass-dark {
     background: color-mix(in oklch, black 35%, transparent);
