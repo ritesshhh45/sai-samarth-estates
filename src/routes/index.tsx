@@ -12,6 +12,7 @@ import { BrochureSection } from "@/components/site/BrochureSection";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { Highlights } from "@/components/site/Highlights";
 import { Plots } from "@/components/site/Plots";
+import { PlotGallery } from "@/components/site/PlotGallery";
 import { Location } from "@/components/site/Location";
 import { Gallery } from "@/components/site/Gallery";
 import { Testimonials } from "@/components/site/Testimonials";
@@ -51,6 +52,7 @@ function Index() {
         <WhyChooseUs />
         <Highlights />
         <Plots />
+        <PlotGallery />
         <Location />
         <Gallery />
         <Testimonials />
