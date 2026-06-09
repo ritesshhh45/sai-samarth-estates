@@ -25,7 +25,7 @@ export function Navbar() {
     <header
       id="site-header"
       className={`fixed inset-x-0 top-0 z-40 transition-all duration-300 ${
-        scrolled ? "glass shadow-card" : "bg-[rgba(15,20,35,0.35)] backdrop-blur-md"
+        scrolled ? "glass shadow-card" : "bg-[rgba(43,27,24,0.45)] backdrop-blur-md"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 md:px-8 md:py-2.5">
@@ -37,12 +37,28 @@ export function Navbar() {
           <img
             src="/assets/brand/logo.png"
             alt="Shree Sai Samarth Developers"
-            width={130}
-            height={40}
+            width={162}
+            height={50}
             loading="eager"
             decoding="async"
-            className="h-[32px] md:h-[39px] w-auto object-contain drop-shadow-[0_4px_14px_rgba(56,189,248,0.45)]"
+            className="h-[40px] md:h-[49px] w-auto object-contain drop-shadow-[0_4px_14px_rgba(200,155,74,0.45)]"
           />
+        </a>
+
+        <nav className="hidden items-center gap-7 md:flex">
+          {links.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              className="text-sm font-medium text-white/90 transition-colors hover:text-[#C89B4A]"
+            >
+              {l.label}
+            </a>
+          ))}
+          <a
+            href="tel:+918787545154"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#5A2328] to-[#C89B4A] px-4 py-2 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_rgba(200,155,74,0.6)] transition-all hover:shadow-[0_10px_30px_-6px_rgba(200,155,74,0.85)] hover:scale-[1.03]"
+          >
         </a>
 
         <nav className="hidden items-center gap-7 md:flex">
