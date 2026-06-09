@@ -22,12 +22,14 @@ export function Navbar() {
   }, []);
 
   return (
-    <header
-      id="site-header"
-      className={`fixed inset-x-0 top-0 z-40 transition-all duration-300 ${
-        scrolled ? "glass shadow-card" : "bg-[rgba(15,20,35,0.35)] backdrop-blur-md"
-      }`}
-    >
+   <header
+  id="site-header"
+  className={`fixed inset-x-0 top-0 z-40 transition-all duration-700 ease-in-out ${
+    scrolled
+      ? "bg-[rgba(35,20,15,0.90)] backdrop-blur-xl border-b border-[#FFD778]/20 shadow-2xl"
+      : "bg-[rgba(35,20,15,0.50)] backdrop-blur-lg"
+  }`}
+>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 md:px-8 md:py-2.5">
         <a
           href="#top"
@@ -41,16 +43,16 @@ export function Navbar() {
             height={40}
             loading="eager"
             decoding="async"
-            className="h-[45px] md:h-[60px] w-auto object-contain brightness-0 invert drop-shadow-[0_0_20px_rgba(255,215,120,0.5)]"
+            className="h-[45px] md:h-[60px] w-auto object-contain brightness-0 invert drop-shadow-[0_0_20px_rgba(255,215,120,0.5)] transition-all duration-300 hover:scale-110:rotate-1"
           />
         </a>
 
-        <nav className="hidden items-center gap-7 md:flex">
+        <nav className="hidden items-center gap-7 md:flex animate-fadeIn">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-white/90 transition-colors hover:text-[#38BDF8]"
+             className="relative text-sm font-medium text-white/90 transition-all duration-300 hover:text-[#FFD778] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#FFD778] after:transition-all after:duration-300 hover:after:w-full"
             >
               {l.label}
             </a>
@@ -73,7 +75,7 @@ export function Navbar() {
       </div>
 
       {open && (
-        <div className="glass border-t border-[rgba(56,189,248,0.18)] md:hidden">
+        <div className="bg-[rgba(20,20,20,0.95)] backdrop-blur-xl border-t border-[#FFD778]/20 md:hidden">
           <div className="flex flex-col gap-1 px-4 py-3">
             {links.map((l) => (
               <a
