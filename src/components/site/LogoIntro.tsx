@@ -188,7 +188,7 @@ export function LogoIntro() {
     <div
       ref={overlayRef}
       aria-hidden
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-gradient-to-br from-[#050505] via-[#111111] to-[#050505]
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-gradient-to-br from-[#050505] via-[#111111] to-[#050505]"
       style={{ pointerEvents: phase === "handoff" ? "none" : "auto" }}
     >
       <div
