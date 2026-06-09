@@ -41,7 +41,7 @@ export function Navbar() {
             height={40}
             loading="eager"
             decoding="async"
-            className="h-[32px] md:h-[39px] w-auto object-contain drop-shadow-[0_4px_14px_rgba(56,189,248,0.45)]"
+            className="h-[45px] md:h-[60px] w-auto object-contain brightness-0 invert drop-shadow-[0_0_20px_rgba(255,215,120,0.5)]"
           />
         </a>
 
