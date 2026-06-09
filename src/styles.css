@@ -152,3 +152,18 @@
     50% { transform: translateY(-6px); }
   }
 }
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-animation {
+  opacity: 0;
+  animation: fadeUp 0.8s ease-out forwards;
+}
