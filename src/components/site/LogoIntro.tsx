@@ -56,7 +56,7 @@ export function LogoIntro() {
       texture.colorSpace = THREE.SRGBColorSpace;
       const img = texture.image as HTMLImageElement;
       const aspect = img.width / img.height;
-      const planeH = 2.4;
+      const planeH = 1.8;
       const planeW = planeH * aspect;
 
       const mat = new THREE.MeshStandardMaterial({
