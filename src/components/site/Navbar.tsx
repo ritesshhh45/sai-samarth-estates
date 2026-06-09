@@ -73,7 +73,7 @@ export function Navbar() {
       </div>
 
       {open && (
-        <div className="glass border-t border-[rgba(56,189,248,0.18)] md:hidden">
+        <div className="glass border-t border-[rgba(200,155,74,0.25)] md:hidden">
           <div className="flex flex-col gap-1 px-4 py-3">
             {links.map((l) => (
               <a
@@ -87,7 +87,7 @@ export function Navbar() {
             ))}
             <a
               href="tel:+918787545154"
-              className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#1E3A8A] to-[#38BDF8] px-5 py-3 text-sm font-semibold text-white shadow-gold"
+              className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#5A2328] to-[#C89B4A] px-5 py-3 text-sm font-semibold text-white shadow-gold"
             >
               <Phone className="h-4 w-4" /> Call 8787545154
             </a>
