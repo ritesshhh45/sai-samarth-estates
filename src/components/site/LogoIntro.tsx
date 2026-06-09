@@ -8,7 +8,7 @@ import * as THREE from "three";
  * - Then FLIP-animates into the navbar logo slot
  * - Then unmounts and lets page content fade in
  */
-const INTRO_HOLD_MS = 2200;        // 3D animation visible time
+const INTRO_HOLD_MS = 2500;        // 3D animation visible time
 const HANDOFF_MS = 750;             // FLIP transform to navbar position
 const TOTAL_MS = INTRO_HOLD_MS + HANDOFF_MS;
 
@@ -162,7 +162,7 @@ export function LogoIntro() {
       const dx = to.left + to.width / 2 - (from.left + from.width / 2);
       const dy = to.top + to.height / 2 - (from.top + from.height / 2);
 
-      wrap.style.transition = `transform ${HANDOFF_MS}ms cubic-bezier(0.6,0,0.2,1)`;
+      wrap.style.transition = `transform ${HANDOFF_MS}ms cubic-bezier(0.22,1,0.36,1)`;
       wrap.style.transform = `translate(${dx}px, ${dy}px) scale(${scale})`;
       overlay.style.transition = `opacity ${HANDOFF_MS}ms ease`;
       overlay.style.opacity = "0";
@@ -200,7 +200,7 @@ export function LogoIntro() {
       />
       <div
         ref={logoWrapRef}
-        className="relative h-[70vh] w-[85vw] max-w-[750px]"
+        className="relative h-[65vh] w-[85vw] max-w-[750px]"
         style={{ transformOrigin: "center center" }}
       >
         <div ref={mountRef} className="absolute inset-0" />
