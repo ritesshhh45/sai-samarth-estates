@@ -75,14 +75,14 @@ export function Hero() {
               href={WA}
               target="_blank"
               rel="noopener noreferrer"
-             className="inline-flex items-center gap-2 rounded-full bg-gradient-warm px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-gold transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-2xl md:text-base"
+             className="inline-flex items-center gap-2 rounded-full bg-gradient-warm px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-gold transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-2xl md:text-base premium-btn"
               style={{ background: "var(--whatsapp)" }}
             >
               <MessageCircle className="h-4 w-4" /> WhatsApp Now
             </a>
             <a
               href="#layouts"
-             className="inline-flex items-center gap-2 rounded-full glass-dark px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-white/15 hover:scale-105 hover:-translate-y-1 hover:shadow-2xl md:text-base"
+             className="inline-flex items-center gap-2 rounded-full glass-dark px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-white/15 hover:scale-105 hover:-translate-y-1 hover:shadow-2xl md:text-base premium-btn"
             >
               <Map className="h-4 w-4" /> View Layout Plan
             </a>
