@@ -19,6 +19,23 @@ const brochures = [
     pdf: "/brochure/shree-nath-nagar-phase-3.pdf",
     chips: ["AMRDA Approved", "60 M Wide Road", "77 Plots", "Solapur-Dhule Highway"],
   },
+{
+  title: "Ganesh Nagar — Phase 2",
+  subtitle: "Shendra (Kagji), Chhatrapati Sambhajinagar",
+  cover: "/brochure/ganesh-1.jpg",
+  pages: [
+    "/brochure/ganesh-1.jpg",
+    "/brochure/ganesh-2.jpg",
+    "/brochure/ganesh-3.jpg"
+  ],
+  pdf: "/brochure/ganesh nagar.pdf",
+  chips: [
+    "NA Approved",
+    "80 Ft Road",
+    "Prime Location",
+    "Ready Plots"
+  ],
+}
 ];
 
 export function BrochureSection() {
