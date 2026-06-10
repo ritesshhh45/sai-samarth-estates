@@ -24,9 +24,9 @@ const brochures = [
   subtitle: "Shendra (Kagji), Chhatrapati Sambhajinagar",
   cover: "/brochure/ganesh-1.jpg",
   pages: [
-    "/brochure/ganesh-1.jpg",
-    "/brochure/ganesh-2.jpg",
-    "/brochure/ganesh-3.jpg"
+    "/brochure/ganesh-1.jpg.jpg",
+    "/brochure/ganesh-2.jpg.jpg",
+    "/brochure/ganesh-3.jpg.jpg"
   ],
   pdf: "/brochure/ganesh nagar.pdf",
   chips: [
